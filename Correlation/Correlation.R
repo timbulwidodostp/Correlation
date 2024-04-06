@@ -4,13 +4,6 @@
 # Methods for Correlation Analysis Use Package correlation (16 Methods Correlation) In R Software
 # Methods for Correlation Analysis Use Package correlation (16 Different Methods for Correlation Analysis) In R Software
 # Install Methods for Correlation Analysis Use Package correlation (16 Methods Correlation) In R Software
-# Install Methods for Correlation Analysis Use Package correlation (16 Different Methods for Correlation Analysis) In R Software
-install.packages("readxl")
-install.packages("httr")
-install.packages("correlation")
-install.packages("BayesFactor")
-install.packages("lme4")
-install.packages("psych")
 library(httr)
 library("readxl")
 library("correlation")
