@@ -4,13 +4,15 @@
 # Methods for Correlation Analysis Use Package correlation (16 Methods Correlation) In R Software
 # Methods for Correlation Analysis Use Package correlation (16 Different Methods for Correlation Analysis) In R Software
 # Install Methods for Correlation Analysis Use Package correlation (16 Methods Correlation) In R Software
+
 library(httr)
 library("readxl")
 library("correlation")
+library("BayesFactor")
 library("lme4")
 library("psych")
 # Import Data Excel Into R From Github Olah Data Semarang (timbulwidodostp)
-github_link <- "https://raw.githubusercontent.com/timbulwidodostp/correlation/main/correlation/correlation.xlsx"
+github_link <- "https://github.com/timbulwidodostp/Correlation/raw/main/Correlation/Correlation.xlsx"
 temp_file <- tempfile(fileext = ".xlsx")
 req <- GET(github_link, 
 # authenticate using GITHUB_PAT
@@ -22,6 +24,8 @@ correlation <- readxl::read_excel(temp_file)
 correlation(correlation)
 # Spearman Method for Correlation Analysis in R
 correlation(correlation, spearman = TRUE)
+# Bayesian Method for Correlation Analysis in R
+correlation(correlation, bayesian = TRUE)
 # Biweight Midcorrelation Method for Correlation Analysis in R
 correlation(correlation, include_factors = TRUE, method = "auto")
 # Partial Method for Correlation Analysis in R
@@ -35,5 +39,3 @@ correlation(correlation, partial = FALSE, multilevel = TRUE)
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
 # Finished
-
-
