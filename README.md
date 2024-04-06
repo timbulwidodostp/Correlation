@@ -3,6 +3,8 @@ Methods for Correlation Analysis Use Package correlation (16 Different Methods f
 
 Methods for Correlation Analysis Use Package correlation (16 Methods Correlation) In R Software
 
+https://www.youtube.com/watch?v=JPyaXSSEesM
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
