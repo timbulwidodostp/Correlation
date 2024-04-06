@@ -7,7 +7,6 @@
 library(httr)
 library("readxl")
 library("correlation")
-library("BayesFactor")
 library("lme4")
 library("psych")
 # Import Data Excel Into R From Github Olah Data Semarang (timbulwidodostp)
@@ -23,8 +22,6 @@ correlation <- readxl::read_excel(temp_file)
 correlation(correlation)
 # Spearman Method for Correlation Analysis in R
 correlation(correlation, spearman = TRUE)
-# Bayesian Method for Correlation Analysis in R
-correlation(correlation, bayesian = TRUE)
 # Biweight Midcorrelation Method for Correlation Analysis in R
 correlation(correlation, include_factors = TRUE, method = "auto")
 # Partial Method for Correlation Analysis in R
