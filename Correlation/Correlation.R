@@ -8,7 +8,6 @@
 install.packages("readxl")
 install.packages("httr")
 install.packages("correlation")
-install.packages("BayesFactor")
 install.packages("lme4")
 install.packages("psych")
 library(httr)
